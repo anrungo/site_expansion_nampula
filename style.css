@@ -1,6 +1,6 @@
 
 .title {
-  background-color: #F8C471;
+  /*background-color: #F8C471;*/
   /*background-image: url(M2M-Logo.png);*/
   padding: 40px 0;
   text-align: center;
@@ -33,21 +33,21 @@ img{
   font-size: 1em;
 }
 .blueShaded {
-  background-color: #D6E8F5;
+  /*background-color: #D6E8F5;*/
   font-family: monospace;
 }
 .blueShaded pre:not([class]) {
-    background-color: #D6E8F5;
+    /*background-color: #D6E8F5;*/
 }
 
 /* Customisation specific to my website */
 body:before,
 .site-header {
-	background-color: #1e73be;
+	/* background-color: #1e73be;*/
   display: none;
 }
 body {
-  background-color: #D7BDE2; /*#1e73be*/
+  /* background-color: #D7BDE2; /*#1e73be*/*/
   text-align: justify;
   /*font-family: Calibri, helvetica, sans-serif;*/
 }
