@@ -23,10 +23,7 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-
-<script>
-document.write('<div class="logos"><img src="" alt=""/></div>')
-</script>
+<link rel="shortcut icon" href="favicon-32x32.png">
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -278,10 +275,10 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="page1.html">Map with all sites</a>
+  <a href="page1.html">Map</a>
 </li>
 <li>
-  <a href="page2.html">Table with all sites</a>
+  <a href="page2.html">Table</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -304,9 +301,9 @@ body {
 text-align: justify}
 </style>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>The table below illustrate the exercise made to select the health facilities across provinces. To select those heath facilities it was based on the PMTCT_STAT, EID indicators and the approximate distance.</p>
-<table class="table table-hover" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>
+<p>The table below illustrate the exercise made to select the health facilities across provinces. To select those heath facilities it was based on the PMTCT_STAT_POS, HEI_POS (0-12 Months) indicators and the approximate distance.</p>
+<table class="table table-hover" style="font-size: 14px; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
 Health Facility Justification
 </caption>
 <thead>
@@ -315,71 +312,26 @@ Health Facility Justification
 Province
 </th>
 <th style="text-align:left;">
-District
+psnu
 </th>
 <th style="text-align:left;">
-Facility
+sitename
 </th>
 <th style="text-align:right;">
-PMTCT STAT
+PMTCT_STAT
 </th>
 <th style="text-align:right;">
-PMTCT EID
+PMTCT_STAT_POS
+</th>
+<th style="text-align:right;">
+HEI_POS<br> (0-12 Months)
+</th>
+<th style="text-align:right;">
+EID_NUM<br> (0-12 Months)
 </th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-Nampula
-</td>
-<td style="text-align:left;">
-Angoche
-</td>
-<td style="text-align:left;">
-Angoche HR
-</td>
-<td style="text-align:right;">
-897
-</td>
-<td style="text-align:right;width: 3cm; ">
-59
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Nampula
-</td>
-<td style="text-align:left;">
-Moma
-</td>
-<td style="text-align:left;">
-Chalaua CS
-</td>
-<td style="text-align:right;">
-1035
-</td>
-<td style="text-align:right;width: 3cm; ">
-45
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Nampula
-</td>
-<td style="text-align:left;">
-Moma
-</td>
-<td style="text-align:left;">
-Micane CS
-</td>
-<td style="text-align:right;">
-454
-</td>
-<td style="text-align:right;width: 3cm; ">
-27
-</td>
-</tr>
 <tr>
 <td style="text-align:left;">
 Nampula
@@ -391,27 +343,16 @@ Moma
 Moma HD
 </td>
 <td style="text-align:right;">
-993
+1771
 </td>
 <td style="text-align:right;width: 3cm; ">
-59
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Nampula
-</td>
-<td style="text-align:left;">
-Monapo
-</td>
-<td style="text-align:left;">
-Monapo CS
+161
 </td>
 <td style="text-align:right;">
-435
+10
 </td>
-<td style="text-align:right;width: 3cm; ">
-29
+<td style="text-align:right;">
+122
 </td>
 </tr>
 <tr>
@@ -425,10 +366,108 @@ Mogovolas
 Nametil CS
 </td>
 <td style="text-align:right;">
-1362
+2671
 </td>
 <td style="text-align:right;width: 3cm; ">
-61
+154
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+134
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nampula
+</td>
+<td style="text-align:left;">
+Moma
+</td>
+<td style="text-align:left;">
+Chalaua CS
+</td>
+<td style="text-align:right;">
+2096
+</td>
+<td style="text-align:right;width: 3cm; ">
+143
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+107
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nampula
+</td>
+<td style="text-align:left;">
+Angoche
+</td>
+<td style="text-align:left;">
+Angoche HR
+</td>
+<td style="text-align:right;">
+1673
+</td>
+<td style="text-align:right;width: 3cm; ">
+138
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+119
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nampula
+</td>
+<td style="text-align:left;">
+Nampula
+</td>
+<td style="text-align:left;">
+Marrere HG
+</td>
+<td style="text-align:right;">
+860
+</td>
+<td style="text-align:right;width: 3cm; ">
+131
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+106
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nampula
+</td>
+<td style="text-align:left;">
+Moma
+</td>
+<td style="text-align:left;">
+Micane CS
+</td>
+<td style="text-align:right;">
+989
+</td>
+<td style="text-align:right;width: 3cm; ">
+107
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+57
 </td>
 </tr>
 </tbody>

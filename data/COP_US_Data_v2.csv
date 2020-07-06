@@ -1,0 +1,32 @@
+province,district,facility,USID,Lat,Long,TX_CURR,PMTC_STAT,PMTCT_EID,Status
+Cabo Delgado,Pemba,Eduardo Mondlane CS,1020110,-12.9711,40.5533,1677,774,33,Currently with m2m
+Cabo Delgado,Pemba,Natite CS,1020108,-12.9619,40.5089,2775,626,56,Currently with m2m
+Cabo Delgado,Chiure,Chiure HD,1020406,-13.3825,39.7844,4693,1230,97,New
+Nampula,Nampula,1 de Maio CSURB,1030108,-15.1142,39.2681,5408,822,92,Currently with m2m
+Nampula,Nampula,25 de Setembro CS II,1030106,-15.1114,39.2536,7224,1737,150,Currently with m2m
+Nampula,Nampula,Hospital Psiquiatrico,1030110,-15.1117,39.2281,2917,1075,91,Currently with m2m
+Nampula,Nampula,Muhala PS,1030117,-15.1205,39.2642,4741,1828,138,Currently with m2m
+Nampula,Nampula,Namicopo PS,1030113,-15.1106,39.2728,1968,595,54,Currently with m2m
+Nampula,Erati,Alua CS I,#N/A,-13.9356,39.9251,3162,1271,76,Currently with m2m
+Nampula,Erati,Namapa HR,1030301,-13.7163,39.8226,3061,952,97,Currently with m2m
+Nampula,Meconta,Namialo CS,1030706,-14.9289,40.0019,2782,856,74,Currently with m2m
+Nampula,Nacala,Akumi CS,#N/A,-14.5353,40.6939,3217,493,45,Currently with m2m
+Nampula,Nacala,Nacala Porto CS,#N/A,-14.5353,40.6939,3826,1139,105,Currently with m2m
+Nampula,Moma,Moma HD,1031206,-16.7625,39.2228,2275,993,59,New
+Nampula,Moma,Chalaua CS,1031207,-16.0914,39.1581,1610,1035,45,New
+Nampula,Angoche,Angoche HR,1030201,-16.2294,39.9078,1931,807,59,New
+Nampula,Mogovolas,Nametil CS,1031106,-15.7089,39.3378,1971,1362,61,New
+Nampula,Monapo,Monapo CS,1031306,-14.9206,40.2986,1145,435,29,New
+Nampula,Nampula,Anchilo CS,1032007,-15.0994,39.4244,1189,1190,20,New
+Nampula,Moma,Micane CS,1031218,-16.6039,39.2506,1437,1163,27,New
+Zambezia,Milange,Milange CSURB,1041006,-16.0981,35.7814,6140,1315,173,Currently with m2m
+Zambezia,Mocuba,16 de Junho CS I,1041137,-16.85,36.9833333,1768,257,28,Currently with m2m
+Zambezia,Mocuba,Mocuba CSURB,1041106,-16.8389,36.9799,4911,570,112,Currently with m2m
+Zambezia,Mocuba,Muanaco CS,1041136,-16.85,36.98333332,1147,188,44,Currently with m2m
+Zambezia,Mocuba,Mugeba CS III,1041108,-16.5173,37.1673,1712,844,46,Currently with m2m
+Zambezia,Mocuba,Padre Usera (Privado) CSURB,1041111,-16.8394,36.9847,1403,316,59,Currently with m2m
+Zambezia,Mocuba,Pedreira CS,1041121,-16.839215,36.985642,1517,420,46,Currently with m2m
+Zambezia,Mocuba,Samora Machel CS,1041120,-16.8031,37.0061,1575,510,34,Currently with m2m
+Zambezia,Nicoadala,Licuar CS ,1041609,-17.5811,36.6958,3612,621,129,Currently with m2m
+Zambezia,Nicoadala,Namacata CS III,1041613,-17.7855,36.9067,1645,342,59,Currently with m2m
+Zambezia,Nicoadala,Nicoadala CS II,1041614,-17.6031,36.8195,9112,769,207,Currently with m2m
